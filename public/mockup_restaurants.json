@@ -10,7 +10,15 @@
             },
             "image": "someImageAsURL",
             "tags": ["tag1", "tag2"],
-            "comments": [ "comment1", "comment2"]
+            "comments": [{
+                "text": "Some comment...",
+                "date": "2017-08-15 21:05:15.723336+07"
+            },
+            {
+                "text": "Some other comment...",
+                "date": "2018-08-15 11:05:15.723336+07"
+            }
+        ]
         },
         {
             "id": 234,
@@ -22,7 +30,10 @@
             },
             "image": "someImageAsURL",
             "tags": ["tag1", "tag2"],
-            "comments": [ "comment1", "comment2"]
+            "comments": {
+                "text": "Some comment...",
+                "date": "2017-08-15 21:05:15.723336+07"
+            }
         },
         {
             "id": 234,
@@ -34,7 +45,10 @@
             },
             "image": "someImageAsURL",
             "tags": ["tag1", "tag2"],
-            "comments": [ "comment1", "comment2"]
+            "comments": {
+                "text": "Some comment...",
+                "date": "2017-08-15 21:05:15.723336+07"
+            }
         }
     ]
 }
