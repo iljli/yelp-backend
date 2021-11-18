@@ -16,7 +16,7 @@ app.use(cors()); //Allowing cors for all origins
 
 var restaurantsRouter = require('./routes/restaurants');
 var cityRouter = require('./routes/city');
-var tagRouter = require('./routes/tag');
+var tagRouter = require('./routes/tags');
 
 
 const port = process.env.PORT || 4000; 
@@ -28,8 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // app.use('/', restaurantsRouter);
 app.use('/restaurants', restaurantsRouter);
-app.use('/city', cityRouter);
-app.use('/tag', tagRouter);
+app.use('/cities', cityRouter);
+app.use('/tags', tagRouter);
 
 app.listen(port, () => { 
     console.log(`App is listening at http://localhost:${port}`); 
