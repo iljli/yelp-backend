@@ -19,7 +19,7 @@ var cityRouter = require('./routes/city');
 var tagRouter = require('./routes/tags');
 
 
-const port = process.env.PORT || 4000; 
+// const port = process.env.PORT || 4000; 
 
 
 app.use(express.json());
