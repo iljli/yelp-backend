@@ -1,0 +1,34 @@
+{
+   "data": [
+        {
+            "id": 10,
+            "name": "Bon Appetit",
+            "city": "Berlin",
+            "lat": 52,
+            "lon": 10,
+            "image": "someImageAsURL",
+            "tags": ["tag1", "tag2"],
+            "comments": [ "comment1", "comment2"]
+        },
+        {
+            "id": 234,
+            "name": "The Grand Cuisine",
+            "city": "Hannover",
+            "lat": 53,
+            "lon": 11,
+            "image": "someImageAsURL",
+            "tags": ["tag1", "tag2"],
+            "comments": [ "comment1", "comment2"]
+        },
+        {
+            "id": 234,
+            "name": "Our Meal",
+            "city": "Frankfunt",
+            "lat": 53,
+            "lon": 13,
+            "image": "someImageAsURL",
+            "tags": ["tag1", "tag2"],
+            "comments": [ "comment1", "comment2"]
+        }
+    ]
+}
