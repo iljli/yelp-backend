@@ -31,8 +31,8 @@ app.use('/restaurants', restaurantsRouter);
 app.use('/cities', cityRouter);
 app.use('/tags', tagRouter);
 
-app.listen(port, () => { 
-    console.log(`App is listening at http://localhost:${port}`); 
-});
+// app.listen(port, () => { 
+//     console.log(`App is listening at http://localhost:${port}`); 
+// });
 
 module.exports = app;
